@@ -23,6 +23,7 @@ then run "docker-compose up -d"
 You can now access the wordpress installation through the browser: http://localhost:8000/
 
 After installing, you can access wordpress admin through: http://localhost:8000/wp-admin
+
 Just login using the username/email and password you provided upon installation.
 
 Then after that, navigate to wordpress plugin page and activate "IONA Plugin".
