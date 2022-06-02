@@ -1,0 +1,79 @@
+#wrapper {
+    width: 800px;
+    margin: 10px auto;
+}
+
+.page-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.form-group select {
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+#listArea {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.breed-item {
+    display: flex;
+    margin: 10px;
+    width: 150px;
+    border: 2px solid #eeeeee;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.breed-item-image {
+    max-width: 100%;
+}
+
+button, .breed-item a, .form-group a {
+    padding: 10px 15px;
+    background: #25b7d1;
+    font-size: 1rem;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-weight: normal;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.img-single {
+    max-width: 100%;
+}
+
+.breed-name {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.breed-origin, .breed-temperament {
+    margin: 0;
+}
+
+.breed-origin, .breed-temperament, .breed-description {
+    font-size: 1rem;
+}
+
+.hidden {
+    display: none;
+}
